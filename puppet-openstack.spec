@@ -1,5 +1,5 @@
 Name:		puppet-openstack	
-Version:	0.3
+Version:	0.4
 Release:	1cisco%{?dist}
 Summary:	Puppet Openstack module
 
@@ -37,6 +37,9 @@ cp -R * %{buildroot}/%{_usr}/share/puppet/modules/%{tmpname}/
 rm -rf %{buildroot}
 
 %changelog
+* Tue Jul 09 2013 Pradeep Kilambi <pkilambi@cisco.com> 0.4-1cisco
+- 
+
 * Thu May 16 2013 Pradeep Kilambi <pkilambi@cisco.com> 0.3-1cisco
 - 
 
